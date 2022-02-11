@@ -2,16 +2,17 @@ package com.example.android3dz1;
 
 public class CounterContracts {
 
-    public interface  CounterView{
+
+
+    interface CounterView{
         void updateCounter(int count);
+        void greenView();
     }
+
     interface Presenter{
         void increment();
-        void decrement();
         void attachView(CounterView counterView);
+        void change();
 
-        void updateCounter(int count);
     }
-
-
 }
