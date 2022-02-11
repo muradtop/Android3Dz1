@@ -6,6 +6,7 @@ public class CounterModel {
     void increment(){
         ++count;
     }
+
     void decrement(){
         --count;
     }
@@ -13,6 +14,4 @@ public class CounterModel {
     public int getCount() {
         return count;
     }
-
-
 }
